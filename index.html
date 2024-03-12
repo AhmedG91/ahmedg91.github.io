@@ -7,6 +7,32 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Custom styles for header image */
+			#header {
+				background-image: url('images/pic09.jpg');
+				background-size: cover;
+				background-position: center;
+				position: relative;
+			}
+
+			#header::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 = 50% transparent) */
+			}
+
+			#header .content {
+				position: relative;
+				z-index: 1;
+				color: #fff; /* Adjust the text color for better visibility */
+			}
+		</style>
+
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
