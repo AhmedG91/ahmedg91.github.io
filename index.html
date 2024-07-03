@@ -1,514 +1,735 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
 
-<head>
+<!-- 
+  Theme Name: Enlight
+  Theme URL: https://probootstrap.com/enlight-free-education-responsive-bootstrap-website-template
+  Author: ProBootstrap.com
+  Author URL: https://probootstrap.com
+  License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
+-->
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>ScholarCrest - Student Information System</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProBootstrap:Enlight &mdash; Free Bootstrap Theme, Free Responsive Bootstrap Website Template</title>
+    <meta name="description" content="Free Bootstrap Theme by ProBootstrap.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 
-<body class="has-animations">
-    <div class="body-wrap">
-        <header class="site-header invert-color">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand">
-                        <h1 class="m-0"><a href="index.html"><img src="images/logo.svg" alt="Tidy" width="32"
-                                    height="32"></a></h1>
-                    </div><button id="header-nav-toggle" class="header-nav-toggle" aria-controls="primary-menu"
-                        aria-expanded="false"><span class="screen-reader">Menu</span> <span class="hamburger"><span
-                                class="hamburger-inner"></span></span></button>
-                    <nav id="header-nav" class="header-nav">
-                        <div class="header-nav-inner">
-                            <ul class="list-reset text-xs header-nav-right">
-                                <li><a href="https://app.scholarcrest.com/login">Secondary page</a></li>
-                            </ul>
-                            <ul class="list-reset header-nav-right">
-                                <li><a class="button button-primary button-wide-mobile button-wide-mobile button-sm"
-                                        href="signup.html">Sign up</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="probootstrap-search" id="probootstrap-search">
+      <a href="#" class="probootstrap-close js-probootstrap-close"><i class="icon-cross"></i></a>
+      <form action="#">
+        <input type="search" name="s" id="search" placeholder="Search a keyword and hit enter...">
+      </form>
+    </div>
+    
+    <div class="probootstrap-page-wrapper">
+      <!-- Fixed navbar -->
+      
+      <div class="probootstrap-header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 probootstrap-top-quick-contact-info">
+              <span><i class="icon-location2"></i>Brooklyn, NY 10036, United States</span>
+              <span><i class="icon-phone2"></i>+1-123-456-7890</span>
+              <span><i class="icon-mail"></i>info@probootstrap.com</span>
             </div>
-        </header>
-        <main class="site-content">
-            <section class="hero section has-bg-color invert-color">
-                <div class="container">
-                    <div class="hero-inner section-inner">
-                        <div class="split-wrap">
-                            <div class="split-item">
-                                <div class="hero-content split-item-content center-content-mobile reveal-from-top">
-                                    <h1 class="mt-0 mb-16">Streamline Student Records Management</h1>
-                                    <p class="mt-0 mb-32">Our cloud-based platform provides a <strong>centralized database</strong> for all student information, making it easy to manage and access records from anywhere.</p>
-                                    <div class="button-group"><a class="button button-primary button-wide-mobile"
-                                            href="#">Pricing and plans</a> <a
-                                            class="button button-dark button-wide-mobile" href="#">Learn more</a></div>
-                                </div>
-                                <div
-                                    class="hero-figure split-item-image split-item-image-fill illustration-element-01 reveal-from-bottom">
-                                    <a class="modal-trigger" aria-controls="modal-01"
-                                        data-video="https://player.vimeo.com/video/174002812" data-video-tag="iframe"
-                                        href="#"><img src="images/video-placeholder.jpg" alt="Video" width="528"
-                                            height="396"></a></div>
-                                <div id="modal-01" class="modal modal-video">
-                                    <div class="modal-inner">
-                                        <div class="responsive-video"><iframe src="#" frameborder="0"
-                                                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 probootstrap-top-social">
+              <ul>
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                <li><a href="#"><i class="icon-instagram2"></i></a></li>
+                <li><a href="#"><i class="icon-youtube"></i></a></li>
+                <li><a href="#" class="probootstrap-search-icon js-probootstrap-search"><i class="icon-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-default probootstrap-navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="btn-more js-btn-more visible-xs">
+              <a href="#"><i class="icon-dots-three-vertical "></i></a>
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" title="ProBootstrap:Enlight">Enlight</a>
+          </div>
+
+          <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="teachers.html">Teachers</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages</a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="courses.html">Courses</a></li>
+                  <li><a href="course-single.html">Course Single</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li class="dropdown-submenu dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="news.html">News</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="flexslider">
+        <ul class="slides">
+          <li style="background-image: url(img/slider_1.jpg)" class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <div class="probootstrap-slider-text text-center">
+                    <h1 class="probootstrap-heading probootstrap-animate">Your Bright Future is Our Mission</h1>
+                  </div>
                 </div>
-            </section>
-            <section class="features-tiles section">
-                <div class="container">
-                    <div class="features-tiles-inner section-inner">
-                        <div class="tiles-wrap">
-                            <div class="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
-                                <div class="tiles-item-inner">
-                                    <div class="features-tiles-item-header">
-                                        <div class="features-tiles-item-image mb-16">
-                                            <img src="images/feature-tile-icon-01.svg" alt="Feature tile icon 01">
-                                        </div>
-                                    </div>
-                                    <div class="features-tiles-item-content">
-                                        <h4 class="mt-0 mb-8"><strong>Secure Data Storage</strong></h4>
-                                        <p class="m-0 text-sm">Protect sensitive student data with industry-leading security and encryption protocols.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="100">
-                                <div class="tiles-item-inner">
-                                    <div class="features-tiles-item-header">
-                                        <div class="features-tiles-item-image mb-16">
-                                            <img src="images/feature-tile-icon-02.svg" alt="Feature tile icon 02">
-                                        </div>
-                                    </div>
-                                    <div class="features-tiles-item-content">
-                                        <h4 class="mt-0 mb-8">Streamlined Admissions</h4>
-                                        <p class="m-0 text-sm">Manage the entire admissions process from application to enrollment with our intuitive tools.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="200">
-                                <div class="tiles-item-inner">
-                                    <div class="features-tiles-item-header">
-                                        <div class="features-tiles-item-image mb-16">
-                                            <img src="images/feature-tile-icon-03.svg" alt="Feature tile icon 03">
-                                        </div>
-                                    </div>
-                                    <div class="features-tiles-item-content">
-                                        <h4 class="mt-0 mb-8">Academic Tracking</h4>
-                                        <p class="m-0 text-sm">Monitor student progress, grades, and attendance with real-time reporting and analytics.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
-                                <div class="tiles-item-inner">
-                                    <div class="features-tiles-item-header">
-                                        <div class="features-tiles-item-image mb-16">
-                                            <img src="images/feature-tile-icon-04.svg" alt="Feature tile icon 04">
-                                        </div>
-                                    </div>
-                                    <div class="features-tiles-item-content">
-                                        <h4 class="mt-0 mb-16"><strong>Comprehensive Student Management</strong></h4>
-                                        <p class="m-0">Track and manage student information, schedules, attendance, grades, and more with our intuitive platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="400">
-                                <div class="tiles-item-inner">
-                                    <div class="features-tiles-item-header">
-                                        <div class="features-tiles-item-image mb-16">
-                                            <img src="images/feature-tile-icon-05.svg" alt="Feature tile icon 05">
-                                        </div>
-                                    </div>
-                                    <div class="features-tiles-item-content">
-                                        <h4 class="mt-0 mb-8"><strong>Automated Communication</strong></h4>
-                                        <p class="m-0 text-sm">Stay connected with students and parents through automated email and SMS notifications for important updates and announcements.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="500">
-                                <div class="tiles-item-inner">
-                                    <div class="features-tiles-item-header">
-                                        <div class="features-tiles-item-image mb-16">
-                                            <img src="images/feature-tile-icon-06.svg" alt="Feature tile icon 06">
-                                        </div>
-                                    </div>
-                                    <div class="features-tiles-item-content">
-                                        <h4 class="mt-0 mb-8"><strong>Customizable Reporting</strong></h4>
-                                        <p class="m-0 text-sm">Generate custom reports and analytics to gain valuable insights into student performance and institutional data.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </li>
+          <li style="background-image: url(img/slider_2.jpg)" class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <div class="probootstrap-slider-text text-center">
+                    <h1 class="probootstrap-heading probootstrap-animate">Education is Life</h1>
+                  </div>
                 </div>
-            </section>
-            <section class="features-tabs section center-content has-bottom-divider">
-                <div class="container">
-                    <div class="features-tabs-inner section-inner has-top-divider">
-                        <div class="section-header center-content">
-                            <div class="container-xs">
-                                <h2 class="mt-0 mb-16"><strong>Comprehensive Student Management</strong></h2>
-                                <p class="m-0">Track and manage student information, schedules, attendance, grades, and more with our intuitive platform.</p>
-                            </div>
-                        </div>
-                        <div class="tabs">
-                            <ul class="tab-list list-reset mb-0">
-                                <li class="tab is-active" role="tab" aria-controls="tab-a">
-                                    <div class="features-tabs-tab-image mb-12">
-                                        <img src="images/features-tabs-icon-01.svg" alt="Tab icon 01" width="56" height="56">
-                                    </div>
-                                    <div class="text-color-high fw-600 text-sm">Student Records</div>
-                                </li>
-                                <li class="tab" role="tab" aria-controls="tab-b">
-                                    <div class="features-tabs-tab-image mb-12">
-                                        <img src="images/features-tabs-icon-02.svg" alt="Tab icon 02" width="56" height="56">
-                                    </div>
-                                    <div class="text-color-high fw-600 text-sm">Scheduling</div>
-                                </li>
-                                <li class="tab" role="tab" aria-controls="tab-c">
-                                    <div class="features-tabs-tab-image mb-12">
-                                        <img src="images/features-tabs-icon-03.svg" alt="Tab icon 03" width="56" height="56">
-                                    </div>
-                                    <div class="text-color-high fw-600 text-sm">Attendance Tracking</div>
-                                </li>
-                                <li class="tab" role="tab" aria-controls="tab-d">
-                                    <div class="features-tabs-tab-image mb-12">
-                                        <img src="images/features-tabs-icon-04.svg" alt="Tab icon 04" width="56" height="56">
-                                    </div>
-                                    <div class="text-color-high fw-600 text-sm">Grading & Reports</div>
-                                </li>
-                            </ul>
-                            <div id="tab-a" class="tab-panel" role="tabpanel">
-                                <img class="has-shadow" src="images/student-records.png" alt="Student Records" width="896" height="504">
-                            </div>
-                            <div id="tab-b" class="tab-panel" role="tabpanel">
-                                <img class="has-shadow" src="images/scheduling.png" alt="Scheduling" width="896" height="504">
-                            </div>
-                            <div id="tab-c" class="tab-panel" role="tabpanel">
-                                <img class="has-shadow" src="images/attendance-tracking.png" alt="Attendance Tracking" width="896" height="504">
-                            </div>
-                            <div id="tab-d" class="tab-panel" role="tabpanel">
-                                <img class="has-shadow" src="images/grading-reports.png" alt="Grading & Reports" width="896" height="504">
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            
+          </li>
+          <li style="background-image: url(img/slider_3.jpg)" class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <div class="probootstrap-slider-text text-center">
+                    <h1 class="probootstrap-heading probootstrap-animate">Helping Each of Our Students Fulfill the Potential</h1>
+                  </div>
                 </div>
-            </section>
-            </section>
-            <section class="news section illustration-section-01">
-                <div class="container">
-                  <div class="news-inner section-inner">
-                    <div class="section-header center-content">
-                      <div class="container-xs">
-                        <h2 class="mt-0 mb-16">Latest Updates from ScholarCrest</h2>
-                        <p class="mb-0">Discover the most recent enhancements and features in ScholarCrest, aimed at improving your educational experience.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="probootstrap-section probootstrap-section-colored">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-left section-heading probootstrap-animate">
+              <h2>Welcome to School of Excellence</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="probootstrap-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="probootstrap-flex-block">
+                <div class="probootstrap-text probootstrap-animate">
+                  <h3>About School</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
+                  <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                </div>
+                <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_3.jpg)">
+                  <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="probootstrap-section" id="probootstrap-counter">
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <div class="probootstrap-counter-wrap">
+                <div class="probootstrap-icon">
+                  <i class="icon-users2"></i>
+                </div>
+                <div class="probootstrap-text">
+                  <span class="probootstrap-counter">
+                    <span class="js-counter" data-from="0" data-to="20203" data-speed="5000" data-refresh-interval="50">1</span>
+                  </span>
+                  <span class="probootstrap-counter-label">Students Enrolled</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <div class="probootstrap-counter-wrap">
+                <div class="probootstrap-icon">
+                  <i class="icon-user-tie"></i>
+                </div>
+                <div class="probootstrap-text">
+                  <span class="probootstrap-counter">
+                    <span class="js-counter" data-from="0" data-to="139" data-speed="5000" data-refresh-interval="50">1</span>
+                  </span>
+                  <span class="probootstrap-counter-label">Certified Teachers</span>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix visible-sm-block visible-xs-block"></div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <div class="probootstrap-counter-wrap">
+                <div class="probootstrap-icon">
+                  <i class="icon-library"></i>
+                </div>
+                <div class="probootstrap-text">
+                  <span class="probootstrap-counter">
+                    <span class="js-counter" data-from="0" data-to="99" data-speed="5000" data-refresh-interval="50">1</span>%
+                  </span>
+                  <span class="probootstrap-counter-label">Passing to Universities</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+               
+               <div class="probootstrap-counter-wrap">
+                <div class="probootstrap-icon">
+                  <i class="icon-smile2"></i>
+                </div>
+                <div class="probootstrap-text">
+                  <span class="probootstrap-counter">
+                    <span class="js-counter" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50">1</span>%
+                  </span>
+                  <span class="probootstrap-counter-label">Parents Satisfaction</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section" style="background-image: url(img/slider_2.jpg)">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center section-heading probootstrap-animate">
+              <h2 class="mb0">Highlights</h2>
+            </div>
+          </div>
+        </div>
+        <div class="probootstrap-tab-style-1">
+          <ul class="nav nav-tabs probootstrap-center probootstrap-tabs no-border">
+            <li class="active"><a data-toggle="tab" href="#featured-news">Featured News</a></li>
+            <li><a data-toggle="tab" href="#upcoming-events">Upcoming Events</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="probootstrap-section probootstrap-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              
+              <div class="tab-content">
+
+                <div id="featured-news" class="tab-pane fade in active">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="owl-carousel" id="owl1">
+                        <div class="item">
+                          <a href="#" class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Tempora consectetur unde nisi</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, ut.</p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              
+                            </div>
+                          </a>
+                        </div>
+                        <!-- END item -->
+                        <div class="item">
+                          <a href="#" class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="img/img_sm_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Tempora consectetur unde nisi</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, officia.</p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              
+                            </div>
+                          </a>
+                        </div>
+                        <!-- END item -->
+                        <div class="item">
+                          <a href="#" class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Tempora consectetur unde nisi</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, dolores.</p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              
+                            </div>
+                          </a>
+                        </div>
+                        <!-- END item -->
+                        <div class="item">
+                          <a href="#" class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Tempora consectetur unde nisi</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, earum.</p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              
+                              
+                            </div>
+                          </a>
+                        </div>
+                        <!-- END item -->
                       </div>
                     </div>
-                    <div class="tiles-wrap">
-                      <!-- Update 1 -->
-                      <article class="tiles-item reveal-from-bottom">
-                        <div class="tiles-item-inner has-shadow">
-                          <figure class="news-item-image m-0"><img src="images/news-image-01.jpg" alt="News 01" width="344" height="194"></figure>
-                          <div class="news-item-content">
-                            <div class="news-item-body">
-                              <h3 class="news-item-title h4 mt-0 mb-8"><a href="#">System Enhancement</a></h3>
-                              <p class="mb-16 text-sm">ScholarCrest now features an improved user interface for easier navigation and access to academic resources.</p>
-                            </div>
-                            <div class="news-item-more text-xs mb-8"><a href="#">Read more</a></div>
-                          </div>
-                        </div>
-                      </article>
-                      <!-- Update 2 -->
-                      <article class="tiles-item reveal-from-bottom" data-reveal-delay="200">
-                        <div class="tiles-item-inner has-shadow">
-                          <figure class="news-item-image m-0"><img src="images/news-image-02.jpg" alt="News 02" width="344" height="194"></figure>
-                          <div class="news-item-content">
-                            <div class="news-item-body">
-                              <h3 class="news-item-title h4 mt-0 mb-8"><a href="#">New Courses</a></h3>
-                              <p class="mb-16 text-sm">Explore our latest course offerings designed to broaden your knowledge and skills in various disciplines.</p>
-                            </div>
-                            <div class="news-item-more text-xs mb-8"><a href="#">Discover courses</a></div>
-                          </div>
-                        </div>
-                      </article>
-                      <!-- Update 3 -->
-                      <article class="tiles-item reveal-from-bottom" data-reveal-delay="400">
-                        <div class="tiles-item-inner has-shadow">
-                          <figure class="news-item-image m-0"><img src="images/news-image-03.jpg" alt="News 03" width="344" height="194"></figure>
-                          <div class="news-item-content">
-                            <div class="news-item-body">
-                              <h3 class="news-item-title h4 mt-0 mb-8"><a href="#">Academic Resources</a></h3>
-                              <p class="mb-16 text-sm">ScholarCrest has expanded its library of academic resources, providing students with more tools for success.</p>
-                            </div>
-                            <div class="news-item-more text-xs mb-8"><a href="#">Learn more</a></div>
-                          </div>
-                        </div>
-                      </article>
+                  </div>
+                  <!-- END row -->
+                  <div class="row">
+                    <div class="col-md-12 text-center">
+                      <p><a href="#" class="btn btn-primary">View all news</a></p>  
                     </div>
                   </div>
                 </div>
-              </section>
-              
-              <section class="roadmap section has-top-divider">
-                <div class="container">
-                    <div class="roadmap-inner section-inner">
-                        <div class="section-header center-content">
-                            <div class="container-xs">
-                                <h2 class="mt-0 mb-16">Product Roadmap</h2>
-                                <p class="mb-0">Stay updated on our upcoming features and improvements to help you better manage your institution's operations.</p>
+                <div id="upcoming-events" class="tab-pane fade">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="owl-carousel" id="owl2">
+                        <div class="item">
+                          <a href="#" class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Tempora consectetur unde nisi</h3>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                             </div>
+                          </a>
                         </div>
-                        <div class="timeline">
-                            <div class="timeline-wrap">
-                                <div class="timeline-item">
-                                    <div class="timeline-item-inner">
-                                        <div class="timeline-item-header text-color-low tt-u mb-4 reveal-fade">Q3 2023</div>
-                                        <div class="timeline-item-content fw-700 h4 m-0 reveal-from-side">Integration with popular learning management systems (LMS)</div>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-item-inner">
-                                        <div class="timeline-item-header text-color-low tt-u mb-4 reveal-fade">Q4 2023</div>
-                                        <div class="timeline-item-content fw-700 h4 m-0 reveal-from-side">Enhanced parent and student portal with mobile app</div>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-item-inner">
-                                        <div class="timeline-item-header text-color-low tt-u mb-4 reveal-fade">Q1 2024</div>
-                                        <div class="timeline-item-content fw-700 h4 m-0 reveal-from-side">Advanced reporting and analytics tools for data-driven insights</div>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-item-inner">
-                                        <div class="timeline-item-header text-color-low tt-u mb-4 reveal-fade">Q2 2024</div>
-                                        <div class="timeline-item-content fw-700 h4 m-0 reveal-from-side">Multi-language support for global institutions</div>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-item-inner">
-                                        <div class="timeline-item-header text-color-low tt-u mb-4 reveal-fade">Q3 2024</div>
-                                        <div class="timeline-item-content fw-700 h4 m-0 reveal-from-side">AI-powered smart assistant for personalized support</div>
-                                    </div>
-                                </div>
+                        <!-- END item -->
+                        <div class="item">
+                          <a href="#" class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="img/img_sm_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Tempora consectetur unde nisi</h3>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                             </div>
+                          </a>
                         </div>
+                        <!-- END item -->
+                        <div class="item">
+                          <a href="#" class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Tempora consectetur unde nisi</h3>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- END item -->
+                        <div class="item">
+                          <a href="#" class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Tempora consectetur unde nisi</h3>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- END item -->
+                      </div>
                     </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 text-center">
+                      <p><a href="#" class="btn btn-primary">View all events</a></p>  
+                    </div>
+                  </div>
                 </div>
-            </section>
-            <section class="pricing section has-bg-color">
-                <div class="container">
-                    <div class="pricing-inner section-inner">
-                        <div class="section-header center-content invert-color">
-                            <div class="container-xs">
-                                <h2 class="mt-0 mb-16">Simple, transparent pricing</h2>
-                                <p class="m-0">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper
-                                    quis lectus nulla at volutpat diam ut venenatis tellus in ornare.</p>
-                            </div>
-                        </div>
-                        <div class="pricing-slider center-content invert-color"><label class="form-slider"><span
-                                    class="mb-16">How many users do you have?</span> <input type="range" value="4"
-                                    data-price-input='{
-                                    "0": "1,000",
-                                    "1": "1,250",
-                                    "2": "1,500",
-                                    "3": "2,000",
-                                    "4": "2,500",
-                                    "5": "3,500",
-                                    "6": "6,000",
-                                    "7": "15,000",
-                                    "8": "50,000"                 
-                                }'></label>
-                            <div class="pricing-slider-value"></div>
-                        </div>
-                        <div class="tiles-wrap">
-                            <div class="tiles-item reveal-from-bottom">
-                                <div class="tiles-item-inner has-shadow">
-                                    <div class="pricing-item-content">
-                                        <div class="pricing-item-header pb-24 mb-24">
-                                            <div class="pricing-item-price mb-8" data-price-output='{
-                                                "0": ["$", "0", "/m"],
-                                                "1": ["$", "13", "/m"],
-                                                "2": ["$", "17", "/m"],
-                                                "3": ["$", "21", "/m"],
-                                                "4": ["$", "27", "/m"],
-                                                "5": ["$", "42", "/m"],
-                                                "6": ["$", "58", "/m"],
-                                                "7": ["$", "117", "/m"],
-                                                "8": ["$", "208", "/m"]
-                                            }'><span class="pricing-item-price-currency h3"></span><span
-                                                    class="pricing-item-price-amount h1"></span><span
-                                                    class="pricing-item-price-after text-sm text-color-low"></span>
-                                            </div>
-                                            <div class="text-xs text-color-low">Lorem ipsum is a common text</div>
-                                        </div>
-                                        <div class="pricing-item-features mb-40">
-                                            <div class="pricing-item-features-title h6 text-xs text-color-high mb-24">
-                                                What’s included</div>
-                                            <ul class="pricing-item-features-list list-reset text-xs mb-32">
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li>Excepteur sint occaecat velit</li>
-                                                <li>Excepteur sint occaecat velit</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-item-cta mb-8"><a class="button button-primary button-block"
-                                            href="#">Start free trial</a></div>
-                                </div>
-                            </div>
-                            <div class="tiles-item reveal-from-bottom" data-reveal-delay="200">
-                                <div class="tiles-item-inner has-shadow">
-                                    <div class="pricing-item-content">
-                                        <div class="pricing-item-header pb-24 mb-24">
-                                            <div class="pricing-item-price mb-8" data-price-output='{
-                                                "0": ["$", "13", "/m"],
-                                                "1": ["$", "17", "/m"],
-                                                "2": ["$", "21", "/m"],
-                                                "3": ["$", "25", "/m"],
-                                                "4": ["$", "47", "/m"],
-                                                "5": ["$", "58", "/m"],
-                                                "6": ["$", "117", "/m"],
-                                                "7": ["$", "208", "/m"],
-                                                "8": ["$", "299", "/m"]
-                                            }'><span class="pricing-item-price-currency h3"></span><span
-                                                    class="pricing-item-price-amount h1"></span><span
-                                                    class="pricing-item-price-after text-sm text-color-low"></span>
-                                            </div>
-                                            <div class="text-xs text-color-low">Lorem ipsum is a common text</div>
-                                        </div>
-                                        <div class="pricing-item-features mb-40">
-                                            <div class="pricing-item-features-title h6 text-xs text-color-high mb-24">
-                                                What’s included</div>
-                                            <ul class="pricing-item-features-list list-reset text-xs mb-32">
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li>Excepteur sint occaecat velit</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-item-cta mb-8"><a class="button button-primary button-block"
-                                            href="#">Start free trial</a></div>
-                                </div>
-                            </div>
-                            <div class="tiles-item reveal-from-bottom" data-reveal-delay="400">
-                                <div class="tiles-item-inner has-shadow">
-                                    <div class="pricing-item-content">
-                                        <div class="pricing-item-header pb-24 mb-24">
-                                            <div class="pricing-item-price mb-8" data-price-output='{
-                                                "0": ["$", "17", "/m"],
-                                                "1": ["$", "21", "/m"],
-                                                "2": ["$", "25", "/m"],
-                                                "3": ["$", "42", "/m"],
-                                                "4": ["$", "67", "/m"],
-                                                "5": ["$", "117", "/m"],
-                                                "6": ["$", "208", "/m"],
-                                                "7": ["$", "299", "/m"],
-                                                "8": ["$", "499", "/m"]
-                                            }'><span class="pricing-item-price-currency h3"></span><span
-                                                    class="pricing-item-price-amount h1"></span><span
-                                                    class="pricing-item-price-after text-sm text-color-low"></span>
-                                            </div>
-                                            <div class="text-xs text-color-low">Lorem ipsum is a common text</div>
-                                        </div>
-                                        <div class="pricing-item-features mb-40">
-                                            <div class="pricing-item-features-title h6 text-xs text-color-high mb-24">
-                                                What’s included</div>
-                                            <ul class="pricing-item-features-list list-reset text-xs mb-32">
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                                <li class="is-checked">Excepteur sint occaecat velit</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-item-cta mb-8"><a class="button button-primary button-block"
-                                            href="#">Start free trial</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cta section center-content-mobile has-bg-color invert-color">
-                <div class="container">
-                    <div class="cta-inner section-inner cta-split">
-                        <div class="cta-slogan">
-                            <h3 class="m-0">For previewing layouts and visual?</h3>
-                        </div>
-                        <div class="cta-action">
-                            <div class="has-icon-right"><label for="newsletter"
-                                    class="form-label screen-reader">Subscribe</label> <input id="newsletter"
-                                    class="form-input" type="text" placeholder="Your best email"> <svg width="16"
-                                    height="12" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#2174EA" />
-                                </svg></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="site-footer center-content-mobile invert-color">
-            <div class="container">
-                <div class="site-footer-inner">
-                    <div class="footer-top space-between text-xxs">
-                        <div class="brand"><a href="index.html"><img src="images/logo.svg" alt="Tidy" width="32"
-                                    height="32"></a></div>
-                        <div class="footer-social">
-                            <ul class="list-reset">
-                                <li><a href="#"><svg width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <title>Facebook</title>
-                                            <path
-                                                d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" />
-                                        </svg></a></li>
-                                <li><a href="#"><svg width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <title>Twitter</title>
-                                            <path
-                                                d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" />
-                                        </svg></a></li>
-                                <li><a href="#"><svg width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <title>Instagram</title>
-                                            <g>
-                                                <circle cx="12.145" cy="3.892" r="1" />
-                                                <path
-                                                    d="M8 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z" />
-                                                <path
-                                                    d="M12 16H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zM4 2c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2H4z" />
-                                            </g>
-                                        </svg></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-bottom space-between text-xxs invert-order-desktop">
-                        <nav class="footer-nav">
-                            <ul class="list-reset">
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">FAQ's</a></li>
-                                <li><a href="#">Support</a></li>
-                            </ul>
-                        </nav>
-                        <div class="footer-copyright">&copy; 2024 ScholarCrest, all rights reserved</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <script src="js/main.min.js"></script>
-</body>
 
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="probootstrap-section probootstrap-bg-white probootstrap-border-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+              <h2>Our Featured Courses</h2>
+              <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt</p>
+            </div>
+          </div>
+          <!-- END row -->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="probootstrap-service-2 probootstrap-animate">
+                <div class="image">
+                  <div class="image-bg">
+                    <img src="img/img_sm_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                  </div>
+                </div>
+                <div class="text">
+                  <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
+                  <h3>Application Design</h3>
+                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
+                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
+                </div>
+              </div>
+
+              <div class="probootstrap-service-2 probootstrap-animate">
+                <div class="image">
+                  <div class="image-bg">
+                    <img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                  </div>
+                </div>
+                <div class="text">
+                  <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
+                  <h3>Chemical Engineering</h3>
+                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
+                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">7,202 students enrolled</span></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <div class="probootstrap-service-2 probootstrap-animate">
+                <div class="image">
+                  <div class="image-bg">
+                    <img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                  </div>
+                </div>
+                <div class="text">
+                  <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
+                  <h3>Math Major</h3>
+                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
+                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p>
+                </div>
+              </div>
+
+              <div class="probootstrap-service-2 probootstrap-animate">
+                <div class="image">
+                  <div class="image-bg">
+                    <img src="img/img_sm_4.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                  </div>
+                </div>
+                <div class="text">
+                  <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
+                  <h3>English Major</h3>
+                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
+                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">9,582 students enrolled</span></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      
+      <section class="probootstrap-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+              <h2>Meet Our Qualified Teachers</h2>
+              <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt</p>
+            </div>
+          </div>
+          <!-- END row -->
+
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="probootstrap-teacher text-center probootstrap-animate">
+                <figure class="media">
+                  <img src="img/person_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+                </figure>
+                <div class="text">
+                  <h3>Chris Worth</h3>
+                  <p>Physical Education</p>
+                  <ul class="probootstrap-footer-social">
+                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="probootstrap-teacher text-center probootstrap-animate">
+                <figure class="media">
+                  <img src="img/person_5.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+                </figure>
+                <div class="text">
+                  <h3>Janet Morris</h3>
+                  <p>English Teacher</p>
+                  <ul class="probootstrap-footer-social">
+                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix visible-sm-block visible-xs-block"></div>
+            <div class="col-md-3 col-sm-6">
+              <div class="probootstrap-teacher text-center probootstrap-animate">
+                <figure class="media">
+                  <img src="img/person_6.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+                </figure>
+                <div class="text">
+                  <h3>Linda Reyez</h3>
+                  <p>Math Teacher</p>
+                  <ul class="probootstrap-footer-social">
+                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="probootstrap-teacher text-center probootstrap-animate">
+                <figure class="media">
+                  <img src="img/person_7.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+                </figure>
+                <div class="text">
+                  <h3>Jessa Sy</h3>
+                  <p>Physics Teacher</p>
+                  <ul class="probootstrap-footer-social">
+                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="probootstrap-section probootstrap-bg probootstrap-section-colored probootstrap-testimonial" style="background-image: url(img/slider_4.jpg);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+              <h2>Alumni Testimonial</h2>
+              <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt</p>
+            </div>
+          </div>
+          <!-- END row -->
+          <div class="row">
+            <div class="col-md-12 probootstrap-animate">
+              <div class="owl-carousel owl-carousel-testimony owl-carousel-fullwidth">
+                <div class="item">
+
+                  <div class="probootstrap-testimony-wrap text-center">
+                    <figure>
+                      <img src="img/person_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                    </figure>
+                    <blockquote class="quote">&ldquo;Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained.&rdquo; <cite class="author"> &mdash; <span>Mike Fisher</span></cite></blockquote>
+                  </div>
+
+                </div>
+                <div class="item">
+                  <div class="probootstrap-testimony-wrap text-center">
+                    <figure>
+                      <img src="img/person_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                    </figure>
+                    <blockquote class="quote">&ldquo;Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.&rdquo; <cite class="author"> &mdash;<span>Jorge Smith</span></cite></blockquote>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="probootstrap-testimony-wrap text-center">
+                    <figure>
+                      <img src="img/person_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                    </figure>
+                    <blockquote class="quote">&ldquo;I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.&rdquo; <cite class="author">&mdash; <span>Brandon White</span></cite></blockquote>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- END row -->
+        </div>
+      </section>
+
+      <section class="probootstrap-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+              <h2>Why Choose Enlight School</h2>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Consectetur Adipisicing</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                </div>  
+              </div>
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Aliquid Dolorum Saepe</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                </div>
+              </div>
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Eveniet Tempora Anisi</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Laboriosam Quod Dignissimos</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                </div>  
+              </div>
+              
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Asperiores Maxime Modi</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                </div>
+              </div>
+              
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Libero Maxime Molestiae</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END row -->
+        </div>
+      </section>
+      
+      <section class="probootstrap-cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">Get your admission now!</h2>
+              <a href="#" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">Enroll</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="probootstrap-footer probootstrap-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="probootstrap-footer-widget">
+                <h3>About The School</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea consequatur consectetur hic provident dolor ab aliquam eveniet alias</p>
+                <h3>Social</h3>
+                <ul class="probootstrap-footer-social">
+                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-github"></i></a></li>
+                  <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                  <li><a href="#"><i class="icon-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-md-push-1">
+              <div class="probootstrap-footer-widget">
+                <h3>Links</h3>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Courses</a></li>
+                  <li><a href="#">Teachers</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="probootstrap-footer-widget">
+                <h3>Contact Info</h3>
+                <ul class="probootstrap-contact-info">
+                  <li><i class="icon-location2"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
+                  <li><i class="icon-mail"></i><span>info@domain.com</span></li>
+                  <li><i class="icon-phone2"></i><span>+123 456 7890</span></li>
+                </ul>
+              </div>
+            </div>
+           
+          </div>
+          <!-- END row -->
+          
+        </div>
+
+        <div class="probootstrap-copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 text-left">
+                <p>&copy; 2017 <a href="https://probootstrap.com/">ProBootstrap:Enlight</a>. All Rights Reserved. Designed &amp; Developed with <i class="icon icon-heart"></i> by <a href="https://probootstrap.com/">ProBootstrap.com</a></p>
+              </div>
+              <div class="col-md-4 probootstrap-back-to-top">
+                <p><a href="#" class="js-backtotop">Back to top <i class="icon-arrow-long-up"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- END wrapper -->
+    
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
 </html>
